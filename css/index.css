@@ -68,7 +68,7 @@ body {
 	display: none;
 }
 #sidebar.hide {
-	width: 0;
+	width: 60px;
 }
 #sidebar .brand {
 	font-size: 24px;
@@ -385,10 +385,17 @@ body {
 	width: 300px;
 	
 }
+#sidebar.hide {
+	width: 0;
+}
 
 }
 @media screen and (max-width: 360px){
 	#content nav{
 		grid-template-columns: 1fr;
 	}
+#sidebar.hide {
+	width: 0;
+}
+
 }
