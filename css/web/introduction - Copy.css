@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+body{
+	font-family: 'Noto Sans Khmer', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+/* MAIN */
+main{
+	color: black;
+	line-height: 2.5;
+	justify-content: center;
+	font-family: 'Noto Sans Khmer', sans-serif;
+}
+.box{
+    width: 630px;
+    height: 345px;
+    color:#9A9A9A;
+    font-size: 15px;
+    background-color: rgb(21,32,43);
+    border-left: 10px solid gray;
+    line-height: 1.5;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.t-style{
+    color: red;
+}
+.cnt b{
+    font-size: 28px;
+}
+.p{
+    border-bottom: 5px solid gray;
+}
+.pic{
+    width: 100%;
+}
+/* table*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+    font-size: 20px;
+    background-color: #0F2B77;
+    color: azure;
+    margin-bottom: 2%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+    
+}
+tr:nth-child(even) {background-color: dimgray;}
+tr:hover {background-color: darkgoldenrod;}
+/* table*/
+/* note*/
+.box-note{
+    width: 100%;
+    background-color: #8F7300;
+    color: #0F0000;
+}
+
+/* MAIN */
+@media screen and (max-width: 576px){
+    .box{
+    width: 320px;
+    height: 280px;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+	scrollbar-width: none;
+    }
+    .cnt b{
+    font-size: 25px;
+}
+    table{
+        font-size: 15px;
+    }
+}
